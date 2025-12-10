@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Janda Mantee';
+    src: url('fonts/JandaMantee/JandaManateeSolid.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Janda Mantee', sans-serif;
+    color: #181a18;
+}
+h1 {
+    font-size: 300%;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #181a18;
+}
+
+body {
+    background-color: #f1d48f;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+header img {
+    display: block;
+}
+
+header nav {
+    display: flex;
+    gap: 16px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #181a18;
+}
+
+.privacy-img,
+.security-img {
+    display: inline-block;
+    width: 30%;
+    margin: 0;
+    vertical-align: top;
+    border: 3px solid #181a18;
+    margin: 140px;
+    background-color: #f3e5c2;
+}
+
+.privacy-img a,
+.security-img a {
+    display: block;
+    text-decoration: none;
+}
+
+.privacy-img img,
+.security-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.privacy-img p,
+.security-img p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 8px;
+}
+
